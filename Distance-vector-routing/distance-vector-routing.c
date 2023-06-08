@@ -1,6 +1,6 @@
-/*
-Distance Vector Routing in this program is implemented using Bellman Ford Algorithm:-
-*/
+
+//Distance Vector Routing in this program is implemented using Bellman Ford Algorithm:-
+
 #include <stdio.h>
 struct node
 {
