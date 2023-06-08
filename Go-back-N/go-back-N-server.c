@@ -8,6 +8,7 @@
 #include<unistd.h>
 #include<arpa/inet.h>
 #include<fcntl.h>
+
 int main() {
 int s_sock, c_sock;
 s_sock = socket(AF_INET, SOCK_STREAM, 0);

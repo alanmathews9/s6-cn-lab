@@ -9,6 +9,7 @@
 #include<string.h>
 #include<unistd.h>
 #include<arpa/inet.h>
+
 int isfaulty(){ //simulating corruption of message
 int d=rand()%4;
 return (d>2);

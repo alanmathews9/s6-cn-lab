@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
+
 int main()
 {
 int i,j=0,noframes,x,x1=10,x2;
