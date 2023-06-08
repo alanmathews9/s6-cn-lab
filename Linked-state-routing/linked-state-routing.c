@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int cost[10][10];
 int dist[10];
 int arr[20];
