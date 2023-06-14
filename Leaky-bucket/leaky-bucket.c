@@ -23,7 +23,7 @@ void main()
         {
             printf("Dropped packets: %d\n", in - (bsize - bucket));
             printf("Bucket status: %d out of %d\n", bucket, bsize)
-            bucket = bsize;
+            bucket = bsize;          //shouldnt this be before the printf?
         }
         bucket -= out;
         printf("Bucket status after outgoing: %d out of %d\n", bucket, bsize);
